@@ -21,7 +21,7 @@ shinyServer(function(input, output) {
     
     if (is.null(inFile))
       return(NULL)
-    setwd("D:/Desktop/LIMPIADOR DE DATOS")
+    setwd("D:/Documents/data_cleaner2")
     chosen_file <- input$file1
     
     source("./cargador de librerias.R")
